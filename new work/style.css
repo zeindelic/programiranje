@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+button{
+    background-color: aqua;
+    color: black;
+    padding: 30px;
+    margin: 50px;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+    border: solid black 1px;
+}
