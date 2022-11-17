@@ -41,4 +41,57 @@ margin-top: 30px;
 
 
 }
+body {
+    margin: 0;
+    padding: 0;
+  
+  }
+  header{
+      display: flex;
+      flex: 1;
+      background-color: lime;
+      justify-content: center;
+  
+  }
+  .main{
+      background-color: red;
+      flex: 2.2;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  footer{
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex: 1;
+      background-color: blue;
+      justify-content: center;
+  }
+  .giga{
+      flex-direction: column;
+      height: 100vh;
+      display: flex;
+  
+  }
+  .nav{
+      display: flex;
+      flex: 1;
+      background-color: beige;
+      justify-content: center;
+  }
+  .content{
+      display: flex;
+      flex: 3;
+      background-color: yellow;
+      justify-content: center;
+  
+  }
+  .aside{
+      display: flex;
+      flex: 1;
+      background-color: purple;
+      justify-content: center;
+  
+  }
 
