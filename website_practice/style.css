@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  border-bottom: solid lightgray 2px;
+  position: sticky;
+}
+
+.header input {
+  height: 40px;
+  margin-left: 50px;
+  border: solid lightgray 2px;
+  border-radius: 25px;
+  width: 200px;
+  padding-left: 10px;
+}
+
+.fort {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.profile {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 10px;
+}
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.eng {
+  color: gray;
+}
+/* this is the main portion below */
+.below {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
+.bar {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-right: solid lightgray 2px;
+}
+.big {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 6;
+}
+.main {
+  width: 100%;
+  margin-top: 15px;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  padding-left: 0;
+}
+.bar .li1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: gray;
+  transition-duration: 300ms;
+  height: 50px;
+}
+.bar a {
+  text-decoration: 0;
+  color: gray;
+  font-weight: bold;
+}
+.p1 {
+  color: gray;
+  margin-left: 10px;
+}
+.list {
+  margin-top: 15px;
+  width: 100%;
+}
+.bar li:hover {
+  background-color: lightgray;
+}
+.p2 {
+  margin: 0 0 0 40px;
+}
+
+/* this is the start of the code for the card side */
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 130px;
+  border: transparent;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 5px -6px 3px lightgray; 
+  -moz-box-shadow: 4px 5px -6px 3px lightgray; 
+  box-shadow: 2px 5px 5px 2px lightgray; 
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 130px;
+  margin-left: 30px;
+  color: gray;
+  font-weight: bold;
+}
+.this_link {
+  text-decoration: none;
+  color: gray;
+}
+.fifty{
+  margin-right: 25px;
+  color: gray;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D6E0FF;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: #F8F9FF;
+}
+.card .img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+  height: 30%;
+  background-color: rgb(25, 21, 58);
+}
+.card_order{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card_order h3{
+    font-size: 25px;
+    font-weight: 700;
+}
+.card_order p{
+    width: 80%;
+    color: gray;
+    margin-top: 15px;
+}
+.card_pay{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin-top: 40px;
+}
+.card_pay img{
+    width: 40px;
+
+}
+.annual{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    font-size: 15px;
+    margin-left: -50px;
+
+}
+.annual h4{
+font-weight: 700px;
+margin-bottom: 10px;
+width: 90px;
+}
+a{
+    font-weight: 700;
+}
+.Button{
+    width: 85%;
+    height: 40px;
+    background-color: #3829E3;
+    border-radius: 15px;
+    border: transparent;
+    margin-top: 40px;
+    color: white;
+    word-spacing: -1px;
+    cursor: pointer;
+}
+.cancel a{
+    text-decoration: none;
+    color: gray;
+    margin-top: 20px;
+    
+}
+.cancel{
+    margin-top: 15px;
+}

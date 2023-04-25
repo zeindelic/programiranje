@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+
+}
+#form{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#form input{
+    margin-top: 10px;
+    width: 50%;
+}
+#addProductCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 50%;
+    height: 80vh;
+    background-color: lightblue;
+    border-radius: 30px;
+
+}
+
+
+
+#categoryDiv{
+    display: none;
+    flex-direction: column;
+    background-color: red;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    margin-top: 20px;
+
+}
+
+
+
+#categoryDiv div{
+    border: 1px solid #000;
+    height: 25%;
+    width: 100%;
+    background-color: lightgray;
+}
+#categoryLi{
+    display: flex;
+    flex-direction: column;
+}
+#categoryLi:hover #categoryDiv{
+display: block;
+}
+header{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: lightcyan;
+}
+#dropDown{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+}
+#dropDown:hover #categoryDiv{
+    background-color: red;
+    display: flex;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 15px;
+    list-style-type: none;
+}

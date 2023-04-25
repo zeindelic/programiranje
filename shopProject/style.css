@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+}
+#categoryDiv{
+    display: none;
+    flex-direction: column;
+    background-color: red;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    margin-top: 20px;
+
+}
+
+
+
+#categoryDiv div{
+    border: 1px solid #000;
+    height: 25%;
+    width: 100%;
+    background-color: lightgray;
+}
+#categoryLi{
+    display: flex;
+    flex-direction: column;
+}
+#categoryLi:hover #categoryDiv{
+display: block;
+}
+header{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    background-color: lightcyan;
+}
+#dropDown{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 20px;
+}
+#dropDown:hover #categoryDiv{
+    background-color: red;
+    display: flex;
+}
+header ul{
+    display: flex;
+}
+header li{
+    margin-left: 15px;
+    list-style-type: none;
+}
+#shopCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    margin-top: 15px;
+    width: 30%;
+    height: 60vh;
+
+    
+}
+#shopSeeMore{
+    width: 50%;
+    height: 7%;
+    background-color: rgb(206, 58, 81);
+    border: transparent;
+    border-radius: 30px;
+}
+#shopImg{
+    width: 40%;
+}
+#shopCard p{
+    text-align: center;
+}
+
+#shopTitle{
+    margin-top: 20px;
+}
+
+#shopSeeMore{
+     margin-bottom: 15px;
+}
+
